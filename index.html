@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LILO COFFE </title>
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Feather Icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!--My style-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar Start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">
+        <img src="image/logo.png" alt="" class="logo">
+        LILO <span>.</span>.
+      </a>
+
+      <div class="navbar-nav">
+        <a href="#Home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Lokasi</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--Navbar End-->
+
+    <!--hero section start-->
+    <section class="hero" id="Home">
+      <main class="content">
+        <h1> LILO COFFE & <span>EATERY</span></h1>
+        <p> Jam Buka 08.00-21.00 WIB / Last Order (20.00 WIB)
+        </p>
+        <a href="#" class="cta"> Come Check us Out! </a>
+      </main>
+    </section>
+    <!--hero section end-->
+
+    <!--About section start-->
+    <section id="about" class="about">
+      <h2>Tentang Kami: Sebuah Cerita dari LILO Coffee</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="image/tentang-kami1.jpg" alt="Tentang Kami 1" class="img-random" />
+          <img src="image/tentang-kami2.jpg" alt="Tentang Kami 2" class="img-random" />
+          <img src="image/team.jpg" alt="Tentang Kami 3" class="img-random" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih LILO Tempat Menikmati Kopi dan Makan?</h3>
+          <p>
+            LILO hadir dengan konsep green coffee shop, menciptakan suasana yang menenangkan di tengah panas kota Cepu. Dikelilingi oleh pepohonan hijau, aroma kopi segar berpadu dengan udara sejuk, menghadirkan pengalaman bersantai yang sempurna.
+          </p>
+          <p>
+            Setiap sudut kedai dirancang dengan elemen kayu, tanaman hias, dan pencahayaan hangat, menciptakan tempat yang nyaman untuk menikmati berbagai macam makanan dan minuman dari kedai kami.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--About sectionEnd-->
+    <!-- Menu Minuman Base Coffe Section Start-->
+<section id="menu" class="menu">
+  <h2><span>Coffe Menu Specialist</span></h2>
+  <p>Berbagai macam rasa racikan menu kopi yang memanjakan rasa yang cocok untuk di coba untuk para penggemar minuman kopi</p>
+
+  <div class="row">
+    <div class="menu-card">
+      <img src="image/menu/1.jpg" alt="Espresso" class="menu-card-img image-clickable" data-title="Espresso" data-description="Espresso citarasa kopi yang kuat bagi para penggemar kopi dengan berbagai pilihan Arabika,Robusta,Blend" data-price-ice="20K" data-price-hot="15K">
+      <h3 class="menu-card-title">- Espresso -</h3>
+      <p class="menu-card-price">IDR 15K</p>
+  
+    </div>
+
+    <!-- Repeat for other menu cards -->
+    <!-- Menu Card 2 -->
+    <div class="menu-card">
+      <img src="image/menu/2.jpg" alt="Coffe Late" class="menu-card-img image-clickable" data-title="Coffe Late" data-description="Bagi para penggemar kopi susu dengan perpaduan balance kopi dan susu membuat rasa nikmat tersendiri" data-price-ice="15K" data-price-hot="15K">
+      <h3 class="menu-card-title">- Coffe Lemon -</h3>
+      <p class="menu-card-price">Ice IDR 15K</p>
+      <p class="menu-card-price">Hot IDR 18K</p>
+    </div>
+
+    <!-- Menu Card 3 -->
+    <div class="menu-card">
+      <img src="image/menu/3.jpg" alt="Cold Brew Cinamon Sunrise" class="menu-card-img image-clickable" data-title="Cold Brew Cinamon Sunrise" data-description="Cold Brew dengan sentuhan cinnamon memberikan rasa manis dan pedas yang seimbang." data-price-ice="15K" data-price-hot="15K">
+      <h3 class="menu-card-title">- Cold Brew Cinamon Sunrise -</h3>
+      <p class="menu-card-price">Ice IDR 15K</p>
+      <p class="menu-card-price">Hot IDR 15K</p>
+    </div>
+    <!-- Menu Card 4 -->
+    <div class="menu-card">
+      <img src="image/menu/4.jpg" alt="Ice Coffe Matcha" class="menu-card-img image-clickable" data-title="Ice Kopi Matcha" data-description="Ice kopi dengan perpaduan matcha dan susu membuat keunikan rasa tersendiri dan balance " data-price-ice="15K" data-price-hot="15K">
+      <h3 class="menu-card-title">- Ice Coffe Matcha -</h3>
+      <p class="menu-card-price">Ice IDR 15K</p>
+      <p class="menu-card-price">Hot IDR 15K</p>
+    </div>
+    <!-- Menu Card 5 -->
+    <div class="menu-card">
+      <img src="image/menu/5.jpg" alt="Americano" class="menu-card-img image-clickable" data-title="Americano" data-description="Bagi para penggemar Espresso dengan rasa yang tidak terlalu kuat dengan perbaduan ice membuatnya lebih segar " data-price-ice="15K" data-price-hot="15K">
+      <h3 class="menu-card-title">- Americano -</h3>
+      <p class="menu-card-price">Ice IDR 15K</p>
+      <p class="menu-card-price">Hot IDR 15K</p>
+    </div>
+    <!-- Menu Card 6 -->
+    <div class="menu-card">
+      <img src="image/menu/6.jpg" alt="Ice Kopi Lemon" class="menu-card-img image-clickable" data-title="Ice Kopi Lemon" data-description="Coldbrew dengan perpaduan lemon menciptakan rasa yang unik dan segar ketika menikmatinya " data-price-ice="15K" data-price-hot="15K">
+      <h3 class="menu-card-title">- Ice Kopi Lemon -</h3>
+      <p class="menu-card-price">Ice IDR 15K</p>
+     
+    </div>
+
+    <!-- Additional menu cards can be added similarly -->
+  </div>
+</section>
+
+<!-- Modal for displaying large image and description -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <div id="modalDescription" class="modal-description"></div>
+</div>
+
+      
+    <!-- Menu Minuman Base Coffe Section End-->
+    <!-- Menu Minuman Non Coffe Section start-->
+    <section id="non-coffee-menu" class="menu">
+      <h2><span>Non-Coffee Drink Menu Specialist</span></h2>
+      <p>Pilihan minuman segar tanpa kopi untuk menemani hari Anda.</p>
+    
+      <div class="row">
+        <!-- Menu Card 1 -->
+        <div class="menu-card">
+          <img src="image/Menu non kopi/macha latte.jpg" alt="Matcha Latte" class="menu-card-img image-clickable" data-title="Matcha Latte" data-description="Matcha Latte dengan rasa lembut dan sedikit pahit, disajikan dengan susu panas, memberikan keseimbangan rasa yang menyegarkan." data-price="IDR 18K">
+          <h3 class="menu-card-title">- Matcha Latte -</h3>
+          <p class="menu-card-price">IDR 18K</p>
+        </div>
+    
+        <!-- Menu Card 2 -->
+        <div class="menu-card">
+          <img src="image/Menu non kopi/tarrolatte.jpg" alt="Taro Latte" class="menu-card-img image-clickable" data-title="Taro Latte" data-description="Taro Latte dengan rasa manis dan lembut dari taro, disajikan dengan susu yang membuat setiap tegukan menjadi kenikmatan." data-price="IDR 18K">
+          <h3 class="menu-card-title">- Taro Latte -</h3>
+          <p class="menu-card-price">IDR 18K</p>
+        </div>
+    
+        <!-- Menu Card 3 -->
+        <div class="menu-card">
+          <img src="image/Menu non kopi/chocolate.jpg" alt="Chocolate Milkshake" class="menu-card-img image-clickable" data-title="Chocolate Milkshake" data-description="Milkshake coklat yang manis dan lembut, pas untuk menemani hari Anda dengan rasa coklat yang kaya." data-price="IDR 18K">
+          <h3 class="menu-card-title">- Chocolate Milkshake -</h3>
+          <p class="menu-card-price">IDR 18K</p>
+        </div>
+    
+        <!-- Menu Card 4 -->
+        <div class="menu-card">
+          <img src="image/Menu non kopi/starbery.jpg" alt="Strawberry Smoothie" class="menu-card-img image-clickable" data-title="Strawberry Smoothie" data-description="Smoothie stroberi yang menyegarkan dengan rasa asam manis alami, cocok untuk Anda yang ingin menikmati minuman segar." data-price="IDR 18K">
+          <h3 class="menu-card-title">- Strawberry Smoothie -</h3>
+          <p class="menu-card-price">IDR 18K</p>
+        </div>
+    
+        <!-- Menu Card 5 -->
+        <div class="menu-card">
+          <img src="image/Menu non kopi/lemontea.jpg" alt="Lemon Tea" class="menu-card-img image-clickable" data-title="Lemon Tea" data-description="Teh lemon segar yang memberikan rasa ringan dengan sentuhan asam manis dari lemon, pas untuk dinikmati kapan saja." data-price="IDR 10K">
+          <h3 class="menu-card-title">- Lemon Tea -</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+    
+        <!-- Menu Card 6 -->
+        <div class="menu-card">
+          <img src="image/Menu non kopi/honeylemon.jpg" alt="Honey Lime Soda" class="menu-card-img image-clickable" data-title="Honey Lime Soda" data-description="Soda lime dengan sentuhan madu yang memberikan rasa manis dan segar yang sempurna, cocok untuk cuaca panas." data-price="IDR 22K">
+          <h3 class="menu-card-title">- Honey Lime Soda -</h3>
+          <p class="menu-card-price">IDR 22K</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Menu Minuman Non Coffe Section End-->
+    <!-- Menu Minuman Section End-->
+    <!-- Menu Makanan Section Start-->
+<section id="food-menu" class="menu">
+  <h2><span>Menu Makanan</span></h2>
+  <p>Berbagai pilihan makanan lezat untuk menemani waktu santai Anda.</p>
+
+  <div class="row">
+    <!-- Menu Card 1 -->
+    <div class="menu-card">
+      <img src="image/Menu makanan/1.jpg" alt="Nasi Goreng Spesial" class="menu-card-img image-clickable" data-title="Nasi Goreng Spesial" data-description="Nasi goreng dengan bumbu khas yang disajikan dengan telur dan ayam, memberikan rasa gurih yang memanjakan lidah." data-price="IDR 15K">
+      <h3 class="menu-card-title">- Nasi Goreng Spesial -</h3>
+      <p class="menu-card-price">IDR 15K</p>
+    </div>
+
+    <!-- Menu Card 2 -->
+    <div class="menu-card">
+      <img src="image/Menu makanan/2.jpg" alt="Mie Goreng Ayam" class="menu-card-img image-clickable" data-title="Mie Goreng Ayam" data-description="Mie goreng ayam dengan rasa pedas manis yang kaya, cocok untuk Anda yang suka makanan dengan rasa yang lebih kuat." data-price="IDR 14K">
+      <h3 class="menu-card-title">- Mie Goreng Ayam -</h3>
+      <p class="menu-card-price">IDR 14K</p>
+    </div>
+
+    <!-- Menu Card 3 -->
+    <div class="menu-card">
+      <img src="image/Menu makanan/3.jpg" alt="Ayam Geprek Sambal Matah" class="menu-card-img image-clickable" data-title="Ayam Geprek Sambal Matah" data-description="Ayam geprek yang renyah dipadukan dengan sambal matah yang segar dan pedas, memberikan sensasi rasa yang nikmat." data-price="IDR 16K">
+      <h3 class="menu-card-title">- Ayam Geprek Sambal Matah -</h3>
+      <p class="menu-card-price">IDR 16K</p>
+    </div>
+
+    <!-- Menu Card 4 -->
+    <div class="menu-card">
+      <img src="image/Menu makanan/4.jpg" alt="Soto Ayam Lamongan" class="menu-card-img image-clickable" data-title="Soto Ayam Lamongan" data-description="Soto ayam lamongan dengan khas kuah kuning dengan perpaduan bumbu koya gurih yang kental dan nikmat" data-price="IDR 15K">
+      <h3 class="menu-card-title">- Sota Ayam Lamongan -</h3>
+      <p class="menu-card-price">IDR 15K</p>
+    </div>
+
+    <!-- Menu Card 5 -->
+    <div class="menu-card">
+      <img src="image/Menu makanan/5.jpg" alt="Ayam Goreng Laos" class="menu-card-img image-clickable" data-title="Ayam Goreng Laos" data-description="Ayam goreng dengan bumbu laos gurih serta di padukan dengan sambal matang yang pedas membuat nikmat" data-price="IDR 15K">
+      <h3 class="menu-card-title">- Ayam Goreng Laos -</h3>
+      <p class="menu-card-price">IDR 15K</p>
+    </div>
+
+    <!-- Menu Card 6 -->
+    <div class="menu-card">
+      <img src="image/Menu makanan/6.jpg" alt="Chicken Steak" class="menu-card-img image-clickable" data-title="Chiken Steak" data-description="Chiken Steak dengan perpaduan saos BBQ dan jamur sangat lembut dan nikmat" data-price="IDR 20K">
+      <h3 class="menu-card-title">- Chicken Steak -</h3>
+      <p class="menu-card-price">IDR 20K</p>
+    </div>
+  </div>
+</section>
+<!-- Menu Makanan Section End-->
+
+<!-- Menu Snack Section Start-->
+<section id="snack-menu" class="menu">
+  <h2><span>Menu Snack</span></h2>
+  <p>Berbagai pilihan snack lezat untuk menemani waktu santai Anda.</p>
+
+  <div class="row">
+    <!-- Snack 1 -->
+    <div class="menu-card">
+      <img src="image/Snack Menu/Chiken wings.jpg" alt="Chicken Wings BBQ" class="menu-card-img image-clickable" data-title="Chicken Wings BBQ" data-description="Sayap ayam BBQ yang dibumbui dengan saus manis dan pedas, memberikan rasa gurih yang lezat." data-price="IDR 16K">
+      <h3 class="menu-card-title">- Chicken Wings BBQ -</h3>
+      <p class="menu-card-price">IDR 16K</p>
+    </div>
+
+    <!-- Snack 2 -->
+    <div class="menu-card">
+      <img src="image/Snack Menu/kentang goreng.jpg" alt="French Fries" class="menu-card-img image-clickable" data-title="French Fries" data-description="French fries di bumbui rasa asin dan manis,memberikan rasa gurih yang lezat" data-price="IDR 12K">
+      <h3 class="menu-card-title">- French Fries -</h3>
+      <p class="menu-card-price">IDR 12K</p>
+    </div>
+
+    <div class="menu-card">
+      <img src="image/Snack Menu/pisang goreng.jpg" alt="Pisang Goreng" class="menu-card-img image-clickable" data-title="Pisang Goreng" data-description=" Pisang goreng dengan coklat dan keju,memberikan rasa manis dan lumer" data-price="IDR 8K">
+      <h3 class="menu-card-title">- Pisang Goreng -</h3>
+      <p class="menu-card-price">IDR 8K</p>
+    </div>
+
+    <!-- Snack 4 -->
+    <div class="menu-card">
+      <img src="image/Snack Menu/roti bakar.jpg" alt="Roti Bakar" class="menu-card-img image-clickable" data-title="Roti Bakar" data-description=" Roti bakar dengan perbaduan berbagai toping,coklat,keju,karamel" data-price="IDR 12K">
+      <h3 class="menu-card-title">- Roti Bakar -</h3>
+      <p class="menu-card-price">IDR 12K</p>
+    </div>
+
+    <!-- Snack 5 -->
+    <div class="menu-card">
+      <img src="image/Snack Menu/singkong keju.jpg" alt="Singkong Keju" class="menu-card-img image-clickable" data-title="Singkong Keju" data-description=" Singkong Keju yang lembut khas indonesia dengan toping keju yang gurih" data-price="IDR 8K">
+      <h3 class="menu-card-title">- Singkong Keju -</h3>
+      <p class="menu-card-price">IDR 8K</p>
+    </div>
+
+    <!-- Snack 6 -->
+    <div class="menu-card">
+      <img src="image/Snack Menu/tahu bakso.jpg" alt="Tahu Bakso" class="menu-card-img image-clickable" data-title="Tahu Bakso" data-description=" Tahu dengan isi bakso dan di goreng dengan rasa gurih dihidangkan dengan cabe hijau" data-price="IDR 10K">
+      <h3 class="menu-card-title">- Tahu Bakso -</h3>
+      <p class="menu-card-price">IDR 10K</p>
+    </div>
+  </div>
+</section>
+<!-- Menu Snack Section End-->
+
+   
+     <!--Contact Section Start-->
+     <section id="contact" class="contact">
+      <h2><span>Lokasi Kami</span></h2>
+      <p>Silahkan Kunjungi Kami Dengan Klik Tautan Link Map Yang Tersedia</p>
+      <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d203.6133171713336!2d111.57864702721506!3d-7.142014792571544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sid!4v1740889842224!5m2!1sen!2sid"" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama">
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email">
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No Handphone">
+          </div>
+          <button class="btn">kirim pesan</button>
+        </form>
+      </div>
+     </section>
+     <!--Contact Section End-->
+
+     <!--footer start-->
+
+     <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+      </div>
+      <div class="links">
+        <a href="#Home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Lokasi</a>
+
+      </div>
+
+      <div class="credit">
+        <p><a href="">LILO COFFE SHOP & EATERY </a></p>
+
+      </div>
+     </footer>
+     <!--footer end-->
+    <!--Feather Icon-->
+    <script>
+      feather.replace();
+    </script>
+
+    <!--my java script-->
+    <script src="script.js"></script>
+  </body>
+</html>
